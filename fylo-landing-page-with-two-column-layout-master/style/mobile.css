@@ -1,0 +1,338 @@
+@media screen and (max-width:425px) {
+    /* Logo and Navbar*/
+
+    .navbar-logo img {
+    height: 30px!important;      
+    }
+    .navbar-logo {
+        width: 100%;
+        display: flex;
+        margin: 1rem 0!important;
+        height: 5vh;
+        align-items: center;
+        padding: 0 1rem;
+    
+    }
+    nav ul li {
+        font-size: 12px;
+        margin: 0!important;
+    }
+    .nav-list{
+     width: 60%!important;
+    }
+
+    /*paragraph 1*/
+    .row {
+        flex-direction: column-reverse;
+        justify-content: flex-start!important;
+        height: 65vh;
+        
+    }
+    .row-paragraph3 {
+        flex-direction: column;
+    }
+    .img-show{
+        width: 100%;
+        height: 40vh!important;
+        display: flex;
+        align-items: center;
+    }
+    .img-show img {
+       width: 100%;
+       height: 250px;
+    }
+    .banner-2 img {
+        height: 250px;
+    }
+    .col-1 {
+        margin: 0!important;
+    }
+    .text h1{
+        
+        margin-bottom:1.5rem ;
+      }
+  .text p{
+    padding: 0!important;
+  }
+    h1 {
+        text-align: center;
+        line-height:2rem!important;
+        font-size:1.5rem!important;
+        font-family: Open Sans;
+        font-weight: bold;
+       
+    }
+    p {
+        font-weight: 100;
+        margin: 1rem;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.2rem;
+        letter-spacing: 1px;
+    }
+    .input-button {
+        display: flex;
+        margin-top: 3rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-button input {
+        margin: 0;
+        width: 90%;
+        height: 45px;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .getstarted {
+        margin-left: 0;
+        margin-top: 1rem;
+        width: 90%;
+        height: 50px;
+        cursor: pointer;
+        background-color: hsl(221, 98%, 57%);
+    }
+    /*paragraph 2 */
+    .paragraph2 {
+        height: 120vh!important;
+    }
+   
+    .banner-2 {
+        height: 300px auto;
+        margin-top: 0!important;
+        display: flex;
+        justify-content: center;
+    }
+    .banner-2 img {
+        margin-top: 3rem;
+
+    }
+    .text-para2 {
+        margin: 5rem 0rem 0rem 0rem;
+    }
+    .text-para2 h1 {
+        font-family: Raleway;
+        font-size: 16px;
+        margin: 2rem 1rem;
+    }
+    .text-para2 p {
+        text-align: start;
+        margin-bottom: 2rem;
+        letter-spacing: 0px;
+        line-height: 1.3rem;
+        opacity: 0.8;
+        margin: 1rem 1.5rem;
+    }
+    .link {
+        display: flex;
+        margin:0  1.5rem;
+        
+    }
+    .link img {
+        height: 15px;
+    }
+    .link a {
+        font-size: 12px;
+    }
+    .comment-layout{
+        display: flex;
+        justify-content: center;    
+    }
+    .comment-group{
+        height: 80vh!important;
+        align-items: center;
+    }
+    .comment{
+        display: flex;
+        flex-direction: column;
+        height: 13rem;
+        width: 300px;
+        padding: 0.1rem;
+        position: relative;
+    
+    }
+    .comment p {
+        text-align: start;
+        font-size: 11px;
+        margin: 2.5rem 0rem 0rem 0rem;
+        opacity: 1;
+        
+    }
+    .comment img {
+        position: absolute;
+        top: 15px;
+        left: 25px;
+    }
+    .CEO{
+        margin: 1.5rem 0;
+    }
+    .CEO p{
+        margin: 0;
+    }
+    .CEO img{
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 30px;
+        width:30px;
+       
+    }
+    .paragraph3 {
+        display: flex;
+        background-color: hsl(238, 22%, 44%);
+        margin: 0;
+        flex-direction: row;
+       height: 60vh!important;
+    }
+    .footer-1{
+        margin: 0;
+    }
+    .footer-1 h1{
+        font-family: 'Raleway', sans-serif;
+        margin-top: 4rem;
+        font-size: 20px;
+    }
+    .footer-1 p{
+        margin: 0 1.5rem;
+        font-weight:400;
+        font-family: Raleway;
+    }
+    .footer-2{
+        display: flex;
+        width: 100%;
+         margin: 0;
+        justify-content: center;
+    }
+    .input-button-2 input{
+      width: 100%;
+      height: 1rem;
+      border-radius: 1px;
+    }
+    .input-button-2 button{
+        margin-top: 0.5rem;
+        height: 2rem;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: hsl(221, 98%, 57%);;
+    }
+
+    section.paragraph4{
+        display: flex;
+        align-items: center;
+        height:100vh!important;
+    }
+    .logo {
+        margin-top: 150px;
+        display: flex;
+        width: 100%;
+        padding: 12% 6%;
+    }
+    .logo img{
+        width: 60%;
+    }
+   
+   .email{
+    display: flex;
+    text-align: left!important;
+    padding: 0;
+   }
+    .contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem;  
+    }
+    .text-footer{
+        width: 100%!important;
+    }
+    .text-footer p{
+        margin: 0!important;
+        text-align: left!important;
+    }
+    .service{
+        margin: 0;
+        flex-direction: column!important;
+    }
+    .service-link{
+        margin-bottom: 1.5rem;
+    }
+    .service-link2{
+        margin-bottom:1.5rem ;
+    }
+   .f-t-i{
+    display: flex;
+    justify-content: center;
+    margin-right: 2.5rem;
+   }
+    .f-t-i i {
+        margin: 0 0.2rem;
+        padding: 0.5rem;
+        font-size: 12px;
+    }
+
+    .all-col{
+        display: flex;
+        justify-content: center!important;
+        height: 110vh!important;
+        
+    }
+    .row-a{
+        flex-direction: column;
+    }
+    .row-b{
+        flex-direction: column;
+    }
+    .com{
+        margin: 5rem 0!important;
+    }
+    .real{
+        margin-bottom: 4rem!important;
+    }
+    .security{
+        margin-bottom: 4rem!important; 
+    }
+    .store{
+        margin-bottom: 4rem!important;
+    }
+    .paragraph3 .row{
+     display: flex;
+     flex-direction: column!important;
+    }
+    .banner-2 {
+        display: flex;
+        height: 35vh!important;
+    }
+    .text-para2 h1{
+        font-size: 18px!important;
+    }
+    section .input-layout{
+        top: -10rem!important;  
+        height: 45vh!important;
+        width: 90%!important;       
+    }
+    .input-layout .text{
+        padding-top:2rem!important;
+    }
+    .input-layout .text h1{
+        font-size: 20px!important;
+    }
+    .input-layout .text p{
+
+        margin: 1rem 0!important;
+    }
+    .inputbutton{
+        display: flex;
+        flex-direction: column;
+        margin: 0 2rem;
+        width: 100%;
+    }
+    .inputbutton input{
+        width: 90%!important;
+    }
+    .inputbutton button{
+        width: 90%!important;
+    }
+    .paragraph5{
+        height: 120vh!important;
+    }
+    
+}

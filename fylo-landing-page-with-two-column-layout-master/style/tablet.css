@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1024px){
+nav{
+    width: 40%!important;
+}
+.text{
+    width: 80%!important;
+}
+.com{
+    margin-top: 10px!important;
+   
+}
+
+.banner-2 {
+    align-items: center;
+}
+.text-para2 p {
+   font-size: 14px;
+}
+.text-para2 h1{
+    font-size: 30px;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+.paragraph4{
+    height: 100vh!important;
+}
+.comment-group{
+    display: flex;
+    flex-direction: column;
+}
+.comment-1{
+    margin: 1rem 0;
+}
+.comment-2{
+    margin: 1rem 0;
+}
+.comment-3{
+    margin: 1rem 0;
+}
+.comment{
+    display: flex;
+    padding: 0rem 1.5rem!important;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+.comment-layout{
+    height: 22vh!important;
+}
+.input-layout{
+    top: -8rem!important;  
+    height: 30vh!important;
+    width: 75%;
+}
+.input-layout .text h1{
+    font-size: 35px;
+    margin: 0!important;
+}
+.input-layout .text p{
+    padding: 0!important;
+    font-size: 14px;
+}
+.inputbutton{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+}
+.input4-5{
+    width: 50%!important;
+    height: 3rem!important;
+    border-radius:30px ;
+    border: none;
+    margin: 1rem;
+    padding: 20px;
+    
+}
+.getstartedforfree{
+    height: 3rem!important;
+}
+.paragraph5{
+    padding: 0 1rem!important;
+}
+
+.f-t-i{
+    height: 2rem;
+    display: flex;
+
+}
+}
+@media only screen and (max-width: 768px){
+    .img-show img{
+        width: 100%;
+    }
+}
+
+
